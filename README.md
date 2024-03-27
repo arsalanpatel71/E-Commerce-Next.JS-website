@@ -16,7 +16,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - **Dynamic Product Listings**: Products are fetched from an API and displayed dynamically.
 - **Responsive Design**: The website is fully responsive and works seamlessly across devices of various sizes.
-- **Filter Options**: Users can filter products based on categories, prices, and other criteria.
+- **Filter Options**: Users can filter products based on categories, gender, and other criteria.
 
 ## Additional Features
 

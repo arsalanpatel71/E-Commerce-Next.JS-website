@@ -1,5 +1,4 @@
 import { LuLayoutDashboard } from "react-icons/lu";
-// import "./TopHeader.css";
 const TopHeader = () => {
   return (
     <section className="top-header">

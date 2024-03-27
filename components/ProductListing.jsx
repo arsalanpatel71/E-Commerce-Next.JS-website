@@ -1,12 +1,24 @@
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "./ProductCard";
 import PropTypes from "prop-types";
-// import "./ProductListing.css"
+import Shimmer from "./Shimmer";
 
 const ProductListing = ({
   showFilter,
 
   products = [],
 }) => {
+  if (products.length === 0) {
+    return (
+      <section className="products">
+        <div className="products-listing">
+          {/* Render multiple shimmer placeholders */}
+          {Array.from({ length: 10 }).map((_, index) => (
+            <Shimmer key={index} />
+          ))}
+        </div>
+      </section>
+    );
+  }
   return (
     <section className="products">
       {showFilter && <div className="arrange-products"></div>}

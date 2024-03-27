@@ -1,12 +1,8 @@
-// pages/index.js
 import { useEffect, useRef, useState } from "react";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import ProductCard from "@/components/ProductCard/ProductCard";
-import ProductListing from "@/components/ProductListing/ProductListing";
-import ProductSort from "@/components/ProductSort/ProductSort";
-import TopHeader from "@/components/TopHeader/TopHeader";
+import Navbar from "../components//Navbar";
+import Header from "@/components//Header";
+import ProductListing from "@/components/ProductListing";
+import ProductSort from "@/components/ProductSort";
 const Home = () => {
   const [isMobile, setIsMobile] = useState(false); // Default to false
   const [showFilter, setShowFilter] = useState(false);
@@ -21,6 +17,7 @@ const Home = () => {
         const response = await fetch("https://fakestoreapi.com/products");
         const data = await response.json();
         setProducts(data);
+        console.log(data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }

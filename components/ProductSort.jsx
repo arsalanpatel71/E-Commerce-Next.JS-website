@@ -2,7 +2,6 @@ import { RiArrowDropDownLine, RiArrowDropLeftLine } from "react-icons/ri";
 import { FaRegSquare } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 import PropTypes from "prop-types";
-// import "./ProductSort.css"
 
 const ProductSort = ({
   toggleFilter,

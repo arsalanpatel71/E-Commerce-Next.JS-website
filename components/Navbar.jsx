@@ -1,7 +1,5 @@
 import { CiSearch, CiHeart, CiUser } from "react-icons/ci";
 import { LiaShoppingBagSolid } from "react-icons/lia";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import LogoImage from "../../public/assets/Images/Logo.png";
 import Image from "next/image";
 
 import PropTypes from "prop-types";
@@ -45,7 +43,6 @@ const Navbar = ({ showNavbar, isMobile }) => {
           <CiUser className="navbar-icon" style={{ cursor: "pointer" }} />
           <div className="language-selector" style={{ cursor: "pointer" }}>
             <h5>ENG</h5>
-            {/* <RiArrowDropDownLine className="navbar-icon" /> */}
           </div>
         </div>
       </div>

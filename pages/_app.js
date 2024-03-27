@@ -1,11 +1,5 @@
-// pages/_app.js
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import ProductCard from "@/components/ProductCard/ProductCard";
-import ProductListing from "@/components/ProductListing/ProductListing";
-import ProductSort from "@/components/ProductSort/ProductSort";
-import TopHeader from "@/components/TopHeader/TopHeader";
+import Footer from "@/components/Footer";
+import TopHeader from "@/components/TopHeader";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -13,7 +7,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <TopHeader />
       <Component {...pageProps} />
-
       <Footer />
     </>
   );

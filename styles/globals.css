@@ -53,7 +53,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.navbar-logo-heading {
+  margin-left: 200px;
+}
 .navbar-logo {
   width: 26px;
   height: 36px;
@@ -744,5 +746,14 @@ body {
 
   .top-header-item:not(:first-child) {
     display: none;
+  }
+}
+/* Shimmer styles */
+@keyframes shimmer {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
   }
 }

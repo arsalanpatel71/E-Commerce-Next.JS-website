@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { CiHeart } from "react-icons/ci";
-// import "./ProductCard.css"
 
 const ProductCard = ({ product }) => {
   return (

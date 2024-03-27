@@ -1,12 +1,11 @@
 import { CiInstagram, CiLinkedin } from "react-icons/ci";
 import Image from "next/image";
-import AmexPay from "../../public/assets/Images/Amex.jpg";
-import ApplePay from "../../public/assets/Images/ApplePay.jpg";
-import GooglePay from "../../public/assets/Images/GooglePay.jpg";
-import ShopPay from "../../public/assets/Images/ShopPay.jpg";
-import PayPal from "../../public/assets/Images/Paypal.jpg";
-import MasterCard from "../../public/assets/Images/MasterCard.jpg";
-// import "./Footer.css";
+import AmexPay from "../public/assets/Images/Amex.jpg";
+import ApplePay from "../public/assets/Images/ApplePay.jpg";
+import GooglePay from "../public/assets/Images/GooglePay.jpg";
+import ShopPay from "../public/assets/Images/ShopPay.jpg";
+import PayPal from "../public/assets/Images/Paypal.jpg";
+import MasterCard from "../public/assets/Images/MasterCard.jpg";
 const Footer = () => {
   return (
     <section className="footer">

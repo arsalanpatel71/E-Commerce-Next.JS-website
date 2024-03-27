@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <h2 align="center">An e-commerce web application built with Next.js, showcasing dynamic product listings, responsive design, and advanced features like filtering, carousel display, and shimmer effects for an enhanced user experience.</h2>
 
-## [Live Project Here](https://www.google.co.in/)
+## [Live Project Link Here](https://www.google.co.in/)
 
 <br />
 <p align="center">

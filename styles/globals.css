@@ -1,5 +1,4 @@
 /* styles/globals.css */
-
 html,
 body {
   padding: 0;
@@ -8,16 +7,37 @@ body {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  overflow-y: auto; /* Show vertical scrollbar only when needed */
+  overflow-y: auto;
 }
-/* Optionally, you can hide the scrollbar completely */
 body::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Edge */
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-/* Optionally, you can hide the scrollbar completely for Firefox */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
-  scrollbar-width: none; /* For Firefox */
+  scrollbar-width: none;
 }
 * {
   box-sizing: border-box;
@@ -26,8 +46,6 @@ body {
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #e5e5e5;
-
-  /* padding: 20px; */
 }
 
 .navbar-elements {
@@ -132,15 +150,17 @@ body {
     display: none;
   }
 }
-
+/* footer start here */
 .footer {
   background-color: black;
   color: #fff;
   width: 100%;
   min-width: 105vw;
-
+  padding: 40px 80px;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
+
 .footer p {
   text-align: center;
   font-size: 14px;
@@ -258,27 +278,26 @@ body {
 
 .footer-bottom li {
   margin-bottom: 16px;
-  color: #fff; /* Set text color */
+  color: #fff;
 }
 
 /* Style the heading */
 .footer-bottom h2,
 .footer-bottom h3 {
-  color: #fff; /* Set heading text color */
+  color: #fff;
 }
 
 .social-media {
   width: 35px;
   height: 35px;
-  border-radius: 50%; /* Make it round */
-  border: 1px solid #fff; /* Set white color border */
+  border-radius: 50%;
+  border: 1px solid #fff;
   padding: 5px;
   margin-right: 12px;
   margin-top: 24px;
   margin-bottom: 56px;
 }
 
-/* Style payment methods */
 .payment-methods img {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -369,8 +388,8 @@ body {
 }
 
 .header-content p {
-  width: 100%; /* Change the width to 100% for responsiveness */
-  max-width: 721px; /* Set a maximum width for larger screens */
+  width: 100%;
+  max-width: 721px;
   font-size: 22px;
   font-weight: 400;
   line-height: 40px;
@@ -378,7 +397,6 @@ body {
   text-align: center;
 }
 
-/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   .header {
     margin-top: 20px;
@@ -485,7 +503,6 @@ body {
   margin-right: 96px;
 }
 
-/* Container styles */
 .sort-container {
   display: flex;
   justify-content: space-between;
@@ -498,14 +515,12 @@ body {
   justify-content: space-between;
 }
 
-/* Item count styles */
 .item-count {
   font-size: 18px;
   font-weight: 700;
   margin: 0;
 }
 
-/* Filter settings styles */
 .filter-settings {
   display: flex;
   align-items: center;
@@ -513,12 +528,10 @@ body {
   margin-left: 20px;
 }
 
-/* Arrow icon styles */
 .arrow-icon {
   margin-right: 5px;
 }
 
-/* Hide filter text styles */
 .hide-filter-text {
   margin: 0;
   font-size: 16px;
@@ -555,9 +568,9 @@ body {
   border-radius: 4px;
   overflow: hidden;
   width: 235px;
-  max-height: 324px; /* Set a max height for the dropdown */
-  overflow-y: hidden; /* Enable vertical scrollbar if necessary */
-  transition: max-height 0.3s ease-in-out; /* Smooth animation */
+  max-height: 324px;
+  overflow-y: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .dropdown-options li {
@@ -587,7 +600,7 @@ body {
 
 .filter-container {
   position: absolute;
-  top: 330px;
+  top: 700px;
   left: -396px;
   width: 300px;
   background-color: #fff;
@@ -636,7 +649,7 @@ body {
 }
 
 .filter-sub-items-select {
-  top: 100%; /* Place it below the parent filter item */
+  top: 100%;
   left: 0;
   width: 100%;
   padding-bottom: 24px;
@@ -665,7 +678,6 @@ body {
 .selected-option {
   font-weight: bold;
 }
-/* Media query for small screens and tabs */
 @media screen and (max-width: 768px) {
   .sort-container {
     flex-direction: row;
@@ -673,7 +685,7 @@ body {
   }
 
   .filter-container {
-    top: 220px;
+    top: 300px;
     margin-left: 30px;
   }
   .sort-first-part {
@@ -685,7 +697,6 @@ body {
     display: none;
   }
 }
-/* Top header */
 .top-header {
   background-color: black;
   height: 32px;
@@ -714,7 +725,6 @@ body {
   margin: 0;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 1024px) {
   .top-header {
     justify-content: center;

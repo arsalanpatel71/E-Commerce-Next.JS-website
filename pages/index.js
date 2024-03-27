@@ -78,7 +78,7 @@ const Home = () => {
   return (
     <>
       <Navbar isMobile={isMobile} />
-      {/* <Header /> */}
+      <Header />
       <ProductSort
         toggleFilter={toggleFilter}
         showFilter={showFilter}

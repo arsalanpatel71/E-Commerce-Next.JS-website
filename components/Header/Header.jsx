@@ -25,12 +25,10 @@ const Header = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
   };
 
   return (
-    <section>
+    <section style={{ width: "95vw", margin: "auto" }}>
       <Slider ref={setSliderRef} {...settings}>
         {slides.map((slide, index) => (
           <div key={index}>
@@ -46,26 +44,26 @@ const Header = () => {
   );
 };
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "grey" }}
-      onClick={onClick}
-    />
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "grey" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "grey" }}
-      onClick={onClick}
-    />
-  );
-}
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "grey" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
 export default Header;

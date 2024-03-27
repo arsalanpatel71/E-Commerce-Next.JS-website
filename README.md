@@ -20,7 +20,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Additional Features
 
-- **Carousel**: Implemented to showcase featured products and new arrivals in a compact space.
+- **Carousel**: Implemented to showcase featured products and new arrivals in a compact space.(Used Flipkart Carasoul Images because of lack of resources)
 - **Shimmer Effect**: Implemented to improve user experience by displaying a placeholder loading state until the product data is fetched from the API.
 
 ## Getting Started

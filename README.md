@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <h1 align="center">E-Commerce Website</h1>
 
-<h2 align="center">Web application for creating dynamic forms easily using JSON configurations.</h2>
+<h2 align="center">An e-commerce web application built with Next.js, showcasing dynamic product listings, responsive design, and advanced features like filtering, carousel display, and shimmer effects for an enhanced user experience.</h2>
+
+## Live Project Here
+
+## [Live Project Here](https://www.google.co.in/)
 
 <br />
 <p align="center">
